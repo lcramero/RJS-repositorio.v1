@@ -1,0 +1,4 @@
+npm run build 
+para crear lo que vamos codeando
+npm start
+para lanzar la aplicacion

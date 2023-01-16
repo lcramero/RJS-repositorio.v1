@@ -1,0 +1,10 @@
+.div-itemList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-itemList-render{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

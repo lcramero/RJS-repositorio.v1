@@ -1,0 +1,26 @@
+.div-itemcount{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.div-itemcount .div-itemcount-buttons-add-dis{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    margin-left:10px;
+}
+.div-itemcount-buttons-onadd{
+    margin-left: 10px;
+}
+.div-itemcount div p{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.div-itemcount div button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}

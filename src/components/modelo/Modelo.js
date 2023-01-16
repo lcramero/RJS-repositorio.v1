@@ -3,18 +3,16 @@
 ####################################*/
 //Modulos
 //Estilos
-import "../itemsListContainer/ItemsListContainer.css"
+import "Modelo.css"
 //Componentes
-import ItemList from "../itemList/ItemList"
 /*##################################
             Logica
 ####################################*/
-const ItemsListContainer= () => {
+const Modelo = (props) => {
     
     return(
-        <div className="div-itemlistcontainer-akamain">
-            <h2>Listado de Productos</h2>
-            <ItemList />
+        <div>
+            Carrito{props.cantidad}
         </div>
     )
 }
@@ -22,4 +20,4 @@ const ItemsListContainer= () => {
 /*##################################
             Exportraciones
 ####################################*/
-export default ItemsListContainer
+export default Modelo
