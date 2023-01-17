@@ -17,7 +17,7 @@ const Item = (props) => {
             <p>{props.data.nombre}</p>
             </div>
             <div className="div-img">
-                <img src= {props.data.image} height={150} width={150} />
+                <img src= {props.data.image} height={135} width={150} />
             </div>
             <div>
                 <p>{props.data.descripcion}</p>

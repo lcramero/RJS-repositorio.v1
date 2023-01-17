@@ -18,7 +18,7 @@ const ItemList = () => {
             precio: 40,
             categoria: "actividad exteriores agua",
             stock: 18,
-            image: "../../img/rafting.jpeg"
+            image: "./img/rafting.jpeg"
         },
         {
             id: 2,
@@ -27,7 +27,7 @@ const ItemList = () => {
             precio: 35,
             categoria: "actividad exteriores agua",
             stock: 20,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/kayak.jpg"
         },
         {
             id: 3,
@@ -36,7 +36,7 @@ const ItemList = () => {
             precio: 25,
             categoria: "actividad exteriores agua",
             stock: 25,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/catamaran.jpg"
         },
         {
             id: 4,
@@ -45,7 +45,7 @@ const ItemList = () => {
             precio: 45,
             categoria: "actividad exteriores agua",
             stock: 19,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/diving.webp"
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ const ItemList = () => {
             precio: 20,
             categoria: "actividad exteriores tierra",
             stock: 16,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/trekking.webp"
         },
         {
             id: 6,
@@ -63,7 +63,7 @@ const ItemList = () => {
             precio: 40,
             categoria: "actividad exteriores tierra",
             stock: 21,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/climb.jpg"
         },
         {
             id: 7,
@@ -72,7 +72,7 @@ const ItemList = () => {
             precio: 15,
             categoria: "actividad exteriores tierra",
             stock: 23,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/zipline.jpg"
         },
         {
             id: 8,
@@ -81,7 +81,7 @@ const ItemList = () => {
             precio: 60,
             categoria: "actividad exteriores tierra",
             stock: 12,
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rio_Salvaje_Jalcomulco.jpeg/375px-Rio_Salvaje_Jalcomulco.jpegs"
+            image: "./img/cave-expedition.webp"
         }
     ]
     const listaDeProductosRend = listaDeProductos.map( p => <Item data = {p}/> )
