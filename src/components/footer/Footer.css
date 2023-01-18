@@ -1,3 +1,7 @@
+footer{
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
 footer .div-footer{
     display: flex;
     flex-direction: column;

@@ -2,9 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #f0f0f0;
+    padding: 40px 20px;
+    margin-top: 194px;
+    font-family: 'Open Sans', sans-serif;
 }
 .div-itemList-render{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 1200px;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
 }
