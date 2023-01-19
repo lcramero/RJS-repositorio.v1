@@ -2,7 +2,7 @@
             Importaciones
 ####################################*/
 //Modulos
-import { useState } from "react"
+import { useState,} from "react"
 
 //Estilos
 import "./ItemList.css"
@@ -16,7 +16,7 @@ const ItemList = () => {
 /*Añadimos la Promise, la funcion de esta es traer la informacion una vez que esta se cumple*/
     const devolucion = new Promise ((resolve, /* reject */) => {
         resolve(
-            fetch ("./../data/Data.json")
+            fetch ("./data/Data.json")
                 .then(res => res.json())
                 .then(json => json.map( p => <Item data = {p}/>))
         )

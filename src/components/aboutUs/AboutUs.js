@@ -3,16 +3,16 @@
 ####################################*/
 //Modulos
 //Estilos
-import "Modelo.css"
+import "./AboutUs.css"
 //Componentes
 /*##################################
             Logica
 ####################################*/
-const Modelo = () => {
+const AboutUs = () => {
     
     return(
         <div>
-            Modelo
+            AboutUs
         </div>
     )
 }
@@ -20,4 +20,4 @@ const Modelo = () => {
 /*##################################
             Exportraciones
 ####################################*/
-export default Modelo
+export default AboutUs

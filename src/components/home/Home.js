@@ -3,16 +3,16 @@
 ####################################*/
 //Modulos
 //Estilos
-import "Modelo.css"
+import "./Home.css"
 //Componentes
 /*##################################
             Logica
 ####################################*/
-const Modelo = () => {
+const Home = () => {
     
     return(
-        <div>
-            Modelo
+        <div className="home-div">
+            Este es el home y  va a ir publicidad aca
         </div>
     )
 }
@@ -20,4 +20,4 @@ const Modelo = () => {
 /*##################################
             Exportraciones
 ####################################*/
-export default Modelo
+export default Home

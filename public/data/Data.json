@@ -1,0 +1,75 @@
+
+[
+    {
+        "id": 1,
+        "title": "Rafting",
+        "description": "Descensos guiados por el río en grupos de hasta 6 personas",
+        "price": 40,
+        "category": "exteriores agua",
+        "stock": 18,
+        "image": "./img/rafting.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Kayak",
+        "description": "Recorridos guiados por el lago en grupos o individuales",
+        "price": 35,
+        "category": "exteriores agua",
+        "stock": 20,
+        "image": "./img/kayak.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Catamaran",
+        "description": "Recorridos guiados por el lago en grupos de hasta 12 personas",
+        "price": 25,
+        "category": "exteriores agua",
+        "stock": 25,
+        "image": "./img/catamaran.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Diving",
+        "description": "Exploraciones guiadas en el lago en grupos de hasta 6 personas",
+        "price": 45,
+        "category": "exteriores agua",
+        "stock": 19,
+        "image": "./img/diving.webp"
+    },
+    {
+        "id": 5,
+        "title": "Trekking",
+        "description": "Recorridos guiados por senderos en grupos de hasta 24 personas",
+        "price": 20,
+        "category": "exteriores tierra",
+        "stock": 16,
+        "image": "./img/trekking.webp"
+    },
+    {
+        "id": 6,
+        "title": "Climb",
+        "description": "Ascensos guiados por la montaña en grupos reducidos",
+        "price": 40,
+        "category": "exteriores tierra",
+        "stock": 21,
+        "image": "./img/climb.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Zip line",
+        "description": "Recorridos individuales a través de montañas y lagos",
+        "price": 15,
+        "category": "exteriores tierra",
+        "stock": 23,
+        "image": "./img/zipline.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Cave expedition",
+        "description": "Exploraciones guiadas a través de cuevas en grupos de hasta 6 personas",
+        "price": 60,
+        "category": "exteriores tierra",
+        "stock": 12,
+        "image": "./img/cave-expedition.webp"
+    }
+]

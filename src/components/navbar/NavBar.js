@@ -2,7 +2,7 @@
             Importaciones
 ####################################*/
 //Modulos
-
+import {Link} from "react-router-dom";
 //Estilos
 import "./NavBar.css"
 import CarWidget from "../cardWidget/CardWidget.js"
@@ -31,14 +31,14 @@ const NavBar = (props) => {
                     <nav>
                         <ul className="navbar-ul">
                             <li>
-                                <a className="" href="index.js">
-                                    Inicio
-                                </a>
+                                <Link to="/home">
+                                    Home
+                                </Link>
                             </li>
                             <li>
-                                <a className="navbar-ul-text" href="index.js">
-                                    Cities
-                                </a>
+                                <Link className="navbar-ul-text" to="/products">
+                                    Productos
+                                </Link>
                                 <ul>
                                     <li>
                                         <a>
@@ -63,9 +63,9 @@ const NavBar = (props) => {
                                 </ul>
                             </li>
                             <li>
-                                <a className="navbar-ul-text" href="index.js">
-                                    Activities
-                                </a>
+                                <Link className="navbar-ul-text" to="/activities">
+                                    Nosotros
+                                </Link>
                                 <ul>
                                     <li>
                                         <a>

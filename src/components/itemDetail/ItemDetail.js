@@ -3,19 +3,19 @@
 ####################################*/
 //Modulos
 //Estilos
-import "./Item.css"
+import "./ItemDetail.css"
 //Componentes
-import ItemCount from "../itemCount/ItemCount"
-import {Link} from 'react-router-dom';
 /*##################################
             Logica
 ####################################*/
-const Item = (props) => {
-
-    const {title, category, description, price, id, stock, image} =props.data
+const ItemDetail = (props) => {
+    
+    const {title, category, description, price, image} = props.data
 
     return(
-        <div className="div-item">
+        <article className="itemDetail-article">
+
+            <div className="div-item">
             <div>
                 <h3>{title}</h3>
             </div>
@@ -26,16 +26,14 @@ const Item = (props) => {
                 <p>{description}</p>
                 <p>U$D{price}</p>
                 <p>{category}</p>
-                <Link to= {`/products/${id}`}>ver detalle del producto</Link>
-            </div>
-            <div>
-            <ItemCount stock={stock}/>
             </div>
         </div>
+
+        </article>
     )
 }
 
 /*##################################
             Exportraciones
 ####################################*/
-export default Item
+export default ItemDetail
