@@ -19,22 +19,30 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        fetch (`./data/Data.json/${productoId}`)
+        fetch ("./data/Data.json")
                 .then(res => res.json())
-                .then(Render => setRender (<ItemDetail key={Render.id} id={"producto" + Render.id} data={Render} />))
+                .then((p) => setRender (p))
 
     },[productoId])
-    
-    return(
-        
-        <div>
-            <section> 
-                {Render}
-            </section>
-        </div>
-    )
-}
+        const arrayProductos = [...new Set(Render.map((item)=>item.id))]
 
+        const renderItem = (item) => {
+            return(
+                    <div>
+                        <section> 
+                            {arrayProductos.filter( (product) => product.id === item.id).map(product =>{
+                                return <ItemDetail data ={product}/>
+                            })}
+                        </section>
+                    </div>
+            );
+        };
+        return( 
+        <div>
+            {arrayProductos.map(renderItem)}
+        </div>
+        )
+    }
 /*##################################
             Exportraciones
 ####################################*/
