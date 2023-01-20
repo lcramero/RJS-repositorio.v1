@@ -8,7 +8,8 @@ import './index.css';
 //Componentes
 //import App from './App';
 import NavBar from './components/navbar/NavBar.js';
-import ItemsListContainer from './components/itemsListContainer/ItemsListContainer.js'
+import ItemsListContainer from './components/itemsListContainer/ItemsListContainer.js';
+import ItemCategoryContainer from './components/itemCategoryContainer/ItemCategoryContainer.js'
 import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer.js';
 import Footer from './components/footer/Footer.js';
 import Home from './components/home/Home.js'
@@ -25,7 +26,9 @@ root.render(
       <NavBar nombre= "Seasonal" />
       <Routes>
         <Route exact path='/home' element={<Home/>}/>
-        <Route exact path='/products' element ={<ItemsListContainer />}/>
+        <Route exact path='/' element ={<ItemsListContainer />}/>
+        <Route exact path='/category/:categoryId' element ={<ItemCategoryContainer />}/>
+        <Route exact path='/category/:id' element ={<ItemsListContainer />}/>
         <Route exact path='/products/:productoId' element={<ItemDetailContainer />}/>
         <Route exact path ='/aboutus' element ={<AboutUs />}/>
       </Routes>

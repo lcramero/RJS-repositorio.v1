@@ -15,9 +15,9 @@ const NavBar = (props) => {
     return(
         <header className="navbar">
             <div className="navbar-header">
-                <a href="index.js" className="navbar-titulo">
+                <Link to="/" className="navbar-titulo">
                     {props.nombre}
-                </a>
+                </Link>
             </div>
             <div className="navbar-div">
                 <div className="navbar-div-ul">
@@ -36,78 +36,46 @@ const NavBar = (props) => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="navbar-ul-text" to="/products">
+                                <Link className="navbar-ul-text" to="/">
                                     Productos
                                 </Link>
                                 <ul>
                                     <li>
-                                        <a>
-                                            Europe
-                                        </a>
+                                        <Link to="/category/:categoryId">
+                                            Climbing
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
-                                            USA
-                                        </a>
+                                        <Link to="/category/:categoryId">
+                                            Trekking
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
-                                            Asia
-                                        </a>
+                                        <Link to="/category/:categoryId">
+                                            Camping
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
-                                            Latin America
-                                        </a>
+                                        <Link to="/category/:categoryId">
+                                            Kayak and rafting
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/:categoryId">
+                                            Fishing
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/:categoryId">
+                                            Diving
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <Link className="navbar-ul-text" to="/activities">
+                                <Link className="navbar-ul-text" to="/aboutus">
                                     Nosotros
                                 </Link>
-                                <ul>
-                                    <li>
-                                        <a>
-                                            Rafting
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Kayak
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Catamaran
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Diving
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Trekking
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Climb
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Zip line
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Cave expeditions
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
                     </nav>
