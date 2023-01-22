@@ -1,19 +1,53 @@
-.div-item{
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+div .div-item{
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
-    margin-top: 30px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 2px;
-    box-shadow: 3px 3px;
+    justify-content: space-between;
+    width: 13rem;
+    height: 20rem;
+    /* Aca cambio el espacio entre las cartas */
+    /* margin: 2% 1.5% 2% 1.5%; */
+    /* padding: 0.5%; */
+    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 0;
 }
-.div-item div{
+.div-item > div{
     text-align: center;
     padding-bottom: -15px;
 }
-.div-item .div-img{
-    width: 150px;
-    height: 150px;
+div .div-title {
+    width: 100%;
+    height: auto;
+    font-size: 1.1rem;
+    padding: 2% 0 2% 0;
+    background: linear-gradient(180deg, #21c8f6 5%, #637bff 95%);
+}
+div .div-title h3{
+    color: white;
+    opacity: 0.8;
+    font-weight: 600;
+    letter-spacing: 0.015rem;
+}
+.div-img{
+    display: flex;
+    align-items: center;
+}
+.div-img img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+.div-link a{
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 1000;
 }

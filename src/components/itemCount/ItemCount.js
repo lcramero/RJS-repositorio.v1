@@ -46,7 +46,7 @@ const ItemCount = (props) => {
                 </div>
             </div>
             <div className="div-itemcount-buttons-onadd">
-                <button onClick={onAdd}>On Add</button>
+                <button onClick={onAdd}>Add</button>
             </div>
         </div>
     )

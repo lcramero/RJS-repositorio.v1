@@ -1,17 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
 .div-itemList{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #f0f0f0;
     padding: 40px 20px;
-    margin-top: 194px;
-    font-family: 'Open Sans', sans-serif;
 }
 .div-itemList-render{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 1200px;
+    align-items: center;
     padding: 40px;
     margin: auto;
     background: #fff;

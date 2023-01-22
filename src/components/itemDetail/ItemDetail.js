@@ -5,13 +5,14 @@
 //Estilos
 import "./ItemDetail.css"
 //Componentes
+import ItemCount from "../itemCount/ItemCount"
 import { Link } from "react-router-dom"
 /*##################################
             Logica
 ####################################*/
 const ItemDetail = (props) => {
     
-    const {title, category, description, price, image} = props.data
+    const {title, category, description, price, image, stock} = props
 
     return(
         <article className="itemDetail-article">
@@ -21,12 +22,15 @@ const ItemDetail = (props) => {
                     <h3>{title}</h3>
                 </div>
                 <div className="div-img">
-                    <img src= {image} height={135} width={150} />
+                    <img src= {image} />
                 </div>
                 <div>
                     <p>{description}</p>
                     <p>U$D{price}</p>
                     <p>{category}</p>
+                </div>
+                <div>
+                    <ItemCount stock={stock}/>
                 </div>
             </div>
             <div>

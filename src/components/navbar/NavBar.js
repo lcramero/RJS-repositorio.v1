@@ -41,32 +41,37 @@ const NavBar = (props) => {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <Link to="/category/:categoryId">
+                                        <Link to="/category/climbing">
                                             Climbing
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/:categoryId">
+                                        <Link to="/category/trekking">
                                             Trekking
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/:categoryId">
+                                        <Link to="/category/camping">
                                             Camping
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/:categoryId">
-                                            Kayak and rafting
+                                        <Link to="/category/kayak">
+                                            Kayak
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/:categoryId">
+                                        <Link to="/category/rafting">
+                                            Rafting
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/category/fishing">
                                             Fishing
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/category/:categoryId">
+                                        <Link to="/category/diving">
                                             Diving
                                         </Link>
                                     </li>

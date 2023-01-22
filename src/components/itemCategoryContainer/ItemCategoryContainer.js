@@ -2,32 +2,42 @@
             Importaciones
 ####################################*/
 //Modulos
+import { useParams} from "react-router-dom";
+import { useEffect, useState } from "react";
 //Estilos
 import "./ItemCategoryContainer.css"
 //Componentes
-import ItemList from "../itemList/ItemList"
+import Item from "../item/Item"
 
 /*##################################
             Logica
 ####################################*/
 const ItemCategoryContainer = () => {
+
+    const {categoryId} = useParams ();
+
+    const [productos, setProductos] = useState([]);
+
     const devolucion = new Promise((resolve, /* reject */) =>{
-        resolve (
-            fetch("./data/Data.json")
+
+            fetch("../data/Data.json")
             .then(res => res.json())
-            .then(json => console.log(json))
-        )
-        console.log(devolucion);
-        ;
-    })
+            .then(json => resolve(json.filter((element) => element.categoryId === categoryId)));
+        
+    });
+
+    useEffect(() => {
+        devolucion.then((respuesta) => setProductos(respuesta))
+    },[categoryId]);
     
     return(
-        <div className="div-itemlistcontainer-akamain">
-            <h2>{/* {category} */}</h2>
-            <ItemList />
+        <div className="div-itemCategoryContainer">
+            {productos.map((elemento) => (
+                <Item data= {elemento} key={elemento.id} /> 
+            ))}
         </div>
-    )
-}
+    );
+};
 
 /*##################################
             Exportraciones

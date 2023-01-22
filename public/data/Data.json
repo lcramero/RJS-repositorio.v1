@@ -2,33 +2,33 @@
 [
     {
         "id": 1,
-        "title": "Casco deportivo",
+        "title": "Casco rafting",
         "description": "Casco protector para hacer rafting",
         "price": 40,
         "category": "rafting kayak exteriores agua",
-        "categoryId": ["r", "k"],
+        "categoryId": "rafting",
         "stock": 18,
-        "image": "./img/rafting.jpeg"
+        "image": "../img/casco-deportivo.webp"
     },
     {
         "id": 11,
-        "title": "Remo pala",
+        "title": "Remo rafting",
         "description": "Remo tipo pala para rafting y/o kayak/canoa",
         "price": 40,
         "category": "rafting kayak exteriores agua",
-        "categoryId": ["r", "k"],
+        "categoryId": "rafting",
         "stock": 18,
-        "image": "./img/rafting.jpeg"
+        "image": "../img/remo-pala-rafting.webp"
     },
     {
         "id": 12,
-        "title": "Bote gomon inflable",
+        "title": "Bote inflable",
         "description": "Bote gomon inflable para rafting",
         "price": 40,
         "category": "rafting exteriores agua",
-        "categoryId": ["r"],
+        "categoryId": "rafting",
         "stock": 18,
-        "image": "./img/rafting.jpeg"
+        "image": "../img/bote-gomon-inflable.webp"
     },
     {
         "id": 13,
@@ -36,9 +36,9 @@
         "description": "Chaleco salvavidas para rafting y/o kayak/canoa",
         "price": 40,
         "category": "rafting kayak exteriores agua",
-        "categoryId": ["r", "k"],
+        "categoryId": "rafting",
         "stock": 18,
-        "image": "./img/rafting.jpeg"
+        "image": "../img/chaleco-salvavidas.webp"
     },
     {
         "id": 2,
@@ -46,9 +46,9 @@
         "description": "Kayak para lagos y/o rios para dos personas",
         "price": 35,
         "category": "kayak exteriores agua",
-        "categoryId":"k",
+        "categoryId":"kayak",
         "stock": 20,
-        "image": "./img/kayak.jpg"
+        "image": "../img/kayak.webp"
     },
     {
         "id": 21,
@@ -56,9 +56,39 @@
         "description": "Torpedo para actividades en lagos ",
         "price": 35,
         "category": "torpedo exteriores agua",
-        "categoryId":"k",
+        "categoryId":"kayak",
         "stock": 20,
-        "image": "./img/kayak.jpg"
+        "image": "../img/torpedo.webp"
+    },
+    {
+        "id": 22,
+        "title": "Casco kayak",
+        "description": "Casco protector para hacer rafting",
+        "price": 40,
+        "category": "rafting kayak exteriores agua",
+        "categoryId": "kayak",
+        "stock": 18,
+        "image": "../img/casco-deportivo-kayak.webp"
+    },
+    {
+        "id": 23,
+        "title": "Remo kayak",
+        "description": "Remo tipo pala para rafting y/o kayak/canoa",
+        "price": 40,
+        "category": "rafting kayak exteriores agua",
+        "categoryId": "kayak",
+        "stock": 18,
+        "image": "../img/remo-pala-kayak.webp"
+    },
+    {
+        "id": 24,
+        "title": "Chaleco salvavidas",
+        "description": "Chaleco salvavidas para rafting y/o kayak/canoa",
+        "price": 40,
+        "category": "rafting kayak exteriores agua",
+        "categoryId": "kayak",
+        "stock": 18,
+        "image": "../img/chaleco-salvavidas.webp"
     },
     {
         "id": 3,
@@ -66,29 +96,29 @@
         "description": "Canoa para recorridos en lagos en grupos de hasta 4 personas",
         "price": 25,
         "category": "kayak exteriores agua",
-        "categoryId":"k",
+        "categoryId":"kayak",
         "stock": 25,
-        "image": "./img/catamaran.jpg"
+        "image": "../img/canoa.webp"
     },
     {
         "id": 4,
-        "title": "Antiparras para buceo",
+        "title": "Antiparras",
         "description": "Antiparras para actividades bajo el agua en lagos y/o mares/oceanos",
         "price": 45,
         "category": "buceo exteriores agua",
-        "categoryId":"d",
+        "categoryId":"diving",
         "stock": 19,
-        "image": "./img/diving.webp"
+        "image": "../img/antiparras.webp"
     },
     {
         "id": 41,
-        "title": "Patas de rana para buceo",
+        "title": "Patas de rana",
         "description": "Patas de rana para actividades bajo el agua en lagos y/o mares/oceanos",
         "price": 45,
         "category": "buceo exteriores agua",
-        "categoryId":"d",
+        "categoryId":"diving",
         "stock": 19,
-        "image": "./img/diving.webp"
+        "image": "../img/patas-de-rana.webp"
     },
     {
         "id": 42,
@@ -96,188 +126,188 @@
         "description": "Tanques de oxigeno para actividades extendidas bajo el agua en lagos y/o mares/oceanos",
         "price": 45,
         "category": "buceo exteriores agua",
-        "categoryId":"d",
+        "categoryId":"diving",
         "stock": 19,
-        "image": "./img/diving.webp"
+        "image": "../img/tanque-buceo.webp"
     },
     {
         "id": 43,
-        "title": "Trajes para buceo",
+        "title": "Trajes",
         "description": "Trajes de neoprene para actividades bajo el agua en lagos y/o mares/oceanos",
         "price": 45,
         "category": "buceo exteriores agua",
-        "categoryId":"d",
+        "categoryId":"diving",
         "stock": 19,
-        "image": "./img/diving.webp"
+        "image": "../img/traje-buceo.webp"
     },
     {
         "id": 5,
-        "title": "Calzado para trekking",
-        "description": "Calzado para senderismo y/o alpinismo",
+        "title": "Zapatillas",
+        "description": "Calzado impermeable para senderismo y/o alpinismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/zapatillas-trekking.webp"
     },
     {
         "id": 51,
-        "title": "Abrigo para trekking",
+        "title": "Abrigo",
         "description": "Campera rompeviento para senderismo y/o alpinismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/trekking.webp"
     },
     {
         "id": 52,
-        "title": "Pantalones para trekking",
+        "title": "Pantalones",
         "description": "Pantalones desmontables unisex para senderismo y/o alpinismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/trekking.webp"
     },
     {
         "id": 53,
-        "title": "Remera para trekking",
+        "title": "Remera",
         "description": "Remera tipo térmica para senderismo y/o alpinismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/trekking.webp"
     },
     {
         "id": 54,
-        "title": "Bastones para trekking",
+        "title": "Bastones",
         "description": "Bastones plegables para senderismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/trekking.webp"
     },
     {
         "id": 55,
-        "title": "Gorra para trekking",
+        "title": "Gorra",
         "description": "Gorra ventilada para senderismo y/o alpinismo",
         "price": 20,
         "category": "trekking climbing exteriores tierra",
-        "categoryId":["t", "c"],
+        "categoryId":"trekking",
         "stock": 16,
-        "image": "./img/trekking.webp"
+        "image": "../img/trekking.webp"
     },
     {
-        "id": 6,
-        "title": "Abrigo pesado para climbing",
-        "description": "Abrigo resistente para alpinismo a grandes alturas",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 61,
-        "title": "Calzado resistente para climbing",
-        "description": "Botas resistente a cualquier tipo de terreno para alpinismo",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 62,
-        "title": "Gancho para climbing",
-        "description": "Gancho de agarre plegable de acero resistente para alpinismo a grandes alturas",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 63,
-        "title": "Polea para climbing",
-        "description": "Polea con bloqueador de rescate resistente para alpinismo",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 64,
-        "title": "Mochila para climbing",
+        "id": 56,
+        "title": "Mochila",
         "description": "Mochila resistente y compacta, reforzada para alpinismo y/o trekking",
         "price": 40,
         "category": "climbing trekking exteriores tierra",
-        "categoryId":["c","t"],
+        "categoryId":"trekking",
         "stock": 21,
-        "image": "./img/climb.jpg"
+        "image": "../img/climb.jpg"
     },
     {
-        "id": 65,
-        "title": "Arnes para climbing",
-        "description": "Arnes corporal resistente para alpinismo",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 66,
-        "title": "Cuerda pesado para climbing",
-        "description": "Cuerda score resistente para alpinismo 70m",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 67,
-        "title": "Piqueta para climbing",
-        "description": "Juego de piquetas resistente para alpinismo tecnico",
-        "price": 40,
-        "category": "climbing exteriores tierra",
-        "categoryId":"c",
-        "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 68,
-        "title": "Linterna para climbing",
+        "id": 57,
+        "title": "Linterna",
         "description": "Linterca para alpinismo y/o trekking nocturno",
         "price": 40,
         "category": "climbing exteriores tierra",
-        "categoryId":["c","t"],
+        "categoryId":"trekking",
         "stock": 21,
-        "image": "./img/climb.jpg"
+        "image": "../img/climb.jpg"
     },
     {
-        "id": 69,
-        "title": "Crampones para climbing",
+        "id": 6,
+        "title": "Abrigo pesado",
+        "description": "Abrigo resistente para alpinismo a grandes alturas",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 61,
+        "title": "Calzado resistente",
+        "description": "Botas resistente a cualquier tipo de terreno para alpinismo",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 62,
+        "title": "Gancho",
+        "description": "Gancho de agarre plegable de acero resistente para alpinismo a grandes alturas",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 63,
+        "title": "Polea",
+        "description": "Polea con bloqueador de rescate resistente para alpinismo",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 64,
+        "title": "Bolso",
+        "description": "Mochila resistente y compacta, reforzada para alpinismo y/o trekking",
+        "price": 40,
+        "category": "climbing trekking exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 65,
+        "title": "Arnes",
+        "description": "Arnes corporal resistente para alpinismo",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 66,
+        "title": "Cuerda",
+        "description": "Cuerda score resistente para alpinismo 70m",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 67,
+        "title": "Piqueta",
+        "description": "Juego de piquetas resistente para alpinismo tecnico",
+        "price": 40,
+        "category": "climbing exteriores tierra",
+        "categoryId":"climbing",
+        "stock": 21,
+        "image": "../img/climb.jpg"
+    },
+    {
+        "id": 68,
+        "title": "Crampones",
         "description": "Juego de crampones resistente para alpinismo tecnico",
         "price": 40,
         "category": "climbing exteriores tierra",
-        "categoryId":"c",
+        "categoryId":"climbing",
         "stock": 21,
-        "image": "./img/climb.jpg"
-    },
-    {
-        "id": 8,
-        "title": "Cave expedition",
-        "description": "Exploraciones guiadas a través de cuevas en grupos de hasta 6 personas",
-        "price": 60,
-        "category": "exteriores tierra",
-        "categoryId": "t",
-        "stock": 12,
-        "image": "./img/cave-expedition.webp"
+        "image": "../img/climb.jpg"
     }
 ]

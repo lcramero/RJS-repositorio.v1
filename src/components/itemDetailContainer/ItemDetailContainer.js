@@ -3,7 +3,7 @@
 ####################################*/
 //Modulos
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 //Estilos
 import "./ItemDetailContainer.css"
 //Componentes
@@ -19,28 +19,32 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        fetch ("./data/Data.json")
+        fetch ("../data/Data.json")
                 .then(res => res.json())
-                .then((p) => setRender (p))
+                .then((p) => {
+                    setRender (p.filter((product) => product.id === parseInt(productoId)).shift())
+                })
 
     },[productoId])
-        const arrayProductos = [...new Set(Render.map((item)=>item.id))]
 
-        const renderItem = (item) => {
-            return(
-                    <div>
-                        <section> 
-                            {arrayProductos.filter( (product) => product.id === item.id).map(product =>{
-                                return <ItemDetail data ={product}/>
-                            })}
-                        </section>
-                    </div>
-            );
-        };
         return( 
-        <div>
-            {arrayProductos.map(renderItem)}
+        <div className="div-itemDetailContainer">
+            <div className="div-link">
+                <Link to = '/'>
+                Volver a la lista de productos
+                </Link>
+            </div>
+            <div className="div-itemDetail">
+                <ItemDetail 
+                title = {Render.title} 
+                category = {Render.category} 
+                description = {Render.description} 
+                price = {Render.price} 
+                image = {Render.image}
+                />
+            </div>
         </div>
+        
         )
     }
 /*##################################

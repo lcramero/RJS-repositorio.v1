@@ -12,20 +12,17 @@ import {Link} from 'react-router-dom';
 ####################################*/
 const Item = (props) => {
 
-    const {title, category, description, price, id, stock, image} =props.data
+    const {title, id, stock, image} =props.data
 
     return(
         <div className="div-item">
-            <div>
+            <div className="div-title">
                 <h3>{title}</h3>
             </div>
             <div className="div-img">
-                <img src= {image} height={135} width={150} />
+                <img src= {image} />
             </div>
-            <div>
-                <p>{description}</p>
-                <p>U$D{price}</p>
-                <p>{category}</p>
+            <div className="div-link">
                 <Link to= {`/products/${id}`}>ver detalle del producto</Link>
             </div>
             <div>

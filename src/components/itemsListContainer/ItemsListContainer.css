@@ -1,6 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
 .div-itemlistcontainer-akamain{
+    width: 100%;
     background: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.div-itemlistcontainer-akamain h2{
+    padding-top: 2rem;
+}
+.div-banner{
+    padding-top: 10%;
+    width: 100%;
+    height: 10%;
+}
+.div-banner img{
+    padding-top: 1rem;
+    width: 100%;
+    height: 15rem;
 }
