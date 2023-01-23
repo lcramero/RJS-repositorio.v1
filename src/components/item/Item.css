@@ -32,18 +32,19 @@ div .div-title {
 }
 div .div-title h3{
     color: white;
-    opacity: 0.8;
+    opacity: 0.6;
     font-weight: 600;
     letter-spacing: 0.015rem;
 }
 .div-img{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .div-img img{
-    object-fit: cover;
+    object-fit:contain;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 .div-link a{
     color: rgba(0, 0, 0, 0.6);

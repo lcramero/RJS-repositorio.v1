@@ -24,12 +24,12 @@ footer .div-footer .footer-icons .footer-icons-self{
 }
 footer .div-footer .footer-links{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 footer .div-footer .footer-links .footer-links-self{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 footer .div-footer .footer-links .footer-links-self div a{
     text-decoration: none;

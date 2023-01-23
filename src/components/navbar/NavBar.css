@@ -42,8 +42,15 @@ header .navbar-header{
     width: 100%;
     margin: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+header .navbar-header h2{
+    
+    font-size: 1.2rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    opacity:0.8;
+    color: white;
 }
 header .navbar-div{
     width: 100%;
@@ -152,7 +159,7 @@ nav ul li ul li a:hover{
 }
 @media screen and (max-width: 720px) {
     header .navbar-header{
-        padding: 10px;
+        display: none;
     }
     header .navbar-header img{
     height: 80px;

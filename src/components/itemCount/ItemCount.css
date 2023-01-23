@@ -11,6 +11,12 @@ button{
     box-shadow: 0 1rem 1.2rem rgba(0, 0, 0, 0.2);
     color: white;
 }
+.div-itemcount h5{
+    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
 .div-itemcount{
     display: flex;
     flex-direction: row;

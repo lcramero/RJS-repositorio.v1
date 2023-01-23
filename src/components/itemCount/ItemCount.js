@@ -36,17 +36,17 @@ const ItemCount = (props) => {
         <div className="div-itemcount">
             <div className="div-itemcount-buttons-add-dis">
                 <div>
-                    <button onClick={addOne}> + </button>
+                    <button onClick={addOne}><h5>+</h5></button>
                 </div>
                 <div>
                     <p>{count}</p>
                 </div>
                 <div>
-                    <button onClick={disOne}> - </button>
+                    <button onClick={disOne}><h5>-</h5></button>
                 </div>
             </div>
             <div className="div-itemcount-buttons-onadd">
-                <button onClick={onAdd}>Add</button>
+                <button onClick={onAdd}><h5>Add</h5></button>
             </div>
         </div>
     )

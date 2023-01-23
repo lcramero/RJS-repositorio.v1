@@ -14,11 +14,11 @@ const NavBar = (props) => {
     
     return(
         <header className="navbar">
-            <div className="navbar-header">
+            {/* <div className="navbar-header">
                 <Link to="/" className="navbar-titulo">
                     {props.nombre}
                 </Link>
-            </div>
+            </div> */}
             <div className="navbar-div">
                 <div className="navbar-div-ul">
                     <input type="checkbox" id="check-menu"></input>
@@ -84,6 +84,11 @@ const NavBar = (props) => {
                             </li>
                         </ul>
                     </nav>
+                </div>
+                <div className="navbar-header">
+                    <Link to="/" className="navbar-titulo">
+                        <h2>{props.nombre}</h2>
+                    </Link>
                 </div>
                 <div className="navbar-carrito">
                 <CarWidget cantidad = "7"></CarWidget>

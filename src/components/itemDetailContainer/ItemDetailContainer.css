@@ -13,9 +13,10 @@
 .div-link{
     display: flex;
     text-align: left;
-    margin: -1% 0 0 1%;
+    padding: 0 2% 0 2%;
 }
 .div-itemDetail{
+    padding-top: none;
     display: flex;
     justify-content: center;
     text-align: center;
