@@ -41,6 +41,7 @@ const ItemDetailContainer = () => {
                 description = {Render.description} 
                 price = {Render.price} 
                 image = {Render.image}
+                stock = {Render.stock}
                 />
             </div>
         </div>

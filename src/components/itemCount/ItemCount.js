@@ -10,9 +10,7 @@ import "../itemCount/ItemCount.css"
             Logica
 ####################################*/
 const ItemCount = (props) => {
-    //props.stock ="7"
-    //Tener en cuenta las condiciones
-    //manejo de estado
+
     //useState
     const [count, setCount] = useState(0)
     //Metodos de suma y resta
@@ -20,16 +18,14 @@ const ItemCount = (props) => {
     //Funciones de suma y resta
     const addOne = () => {
         if(count < props.stock)
+        props.guardarCantidadAComprar(count)
         setCount (count + 1)
     }
     const disOne = () =>{
         if (count > 0){
+            props.guardarCantidadAComprar(count)
             setCount (count - 1)
         }
-    }
-    //Funcion agregar
-    const onAdd = () =>{
-        console.log(count)
     }
 
     return(
@@ -44,9 +40,6 @@ const ItemCount = (props) => {
                 <div>
                     <button onClick={disOne}><h5>-</h5></button>
                 </div>
-            </div>
-            <div className="div-itemcount-buttons-onadd">
-                <button onClick={onAdd}><h5>Add</h5></button>
             </div>
         </div>
     )

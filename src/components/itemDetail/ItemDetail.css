@@ -39,6 +39,16 @@
     width: 9rem;
     height: 9rem;
 }
+.div-item .div-itemCount-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+.div-item .div-itemcount-buttons-onadd h5{
+    color: rgba(0, 0, 0, 0.6);
+}
 #description{
     font-weight: bold;
     text-align: center;

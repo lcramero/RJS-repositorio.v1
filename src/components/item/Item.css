@@ -52,3 +52,9 @@ div .div-title h3{
     font-size: 0.8rem;
     font-weight: 1000;
 }
+.div-price h4{
+    color: #3c8ec5;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    opacity: 1;
+}
