@@ -20,7 +20,7 @@ const ItemDetail = (props) => {
     const funcionHijoGuardarCantidad = (cantidadX) => {
         setCantidadProductosAComprar(cantidadX)
     }
-    const {agregarAlCarrito, /* mostrarMensaje */} = useCartContext()
+    const {agregarAlCarrito} = useCartContext()
     //Funcion agregar
     const onAdd = () => {
         if (cantidadProductosAComprar != 0){

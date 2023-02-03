@@ -23,14 +23,14 @@ const ItemList = () => {
                 .then((json) => json.map( (p) => <Item data = {p}/>))
         );
     });
-
+//el useEffect aca era para controlar los pedidos en productos
     useEffect(() => {
         devolucion.then((data) => {
             setRender(data);
 
-    },[]);
-
     });
+
+    },[]);
 
     return(
         <div className="div-itemList">
